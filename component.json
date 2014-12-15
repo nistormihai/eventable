@@ -1,6 +1,6 @@
 {
   "name": "eventable",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "The events part of Backbone",
   "license": "MIT",
   "scripts": [

@@ -8,10 +8,9 @@
     // Node. Does not work with strict CommonJS, but only CommonJS-like
     // enviroments that support module.exports, like Node.
     module.exports = factory();
-  } else {
-    // Browser globals
-    root.Eventable = factory();
   }
+  // Browser globals
+  root.Eventable = factory();
 }(this, function() {
 
   // Copy and pasted straight out of Backbone 1.0.0
